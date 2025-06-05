@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Ghost - Free Online Mystery Game | Play Now</title>
+    <meta name="description" content="Play Find Ghost free online - an exciting mystery adventure game where you hunt for hidden spirits. Challenge your observation skills in this thrilling ghost-hunting experience.">
+    <meta name="keywords" content="find ghost, online game, mystery game, ghost hunting, free games, browser game, puzzle game">
+    <meta name="author" content="Find Ghost Online">
+    <link rel="canonical" href="https://findghost.online/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Find Ghost - Free Online Mystery Game">
+    <meta property="og:description" content="Hunt for hidden spirits in this thrilling online ghost-hunting game. Play free now!">
+    <meta property="og:url" content="https://findghost.online/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Find Ghost Online">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Find Ghost - Free Online Mystery Game">
+    <meta name="twitter:description" content="Hunt for hidden spirits in this thrilling online ghost-hunting game. Play free now!">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-light-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-purple': '#AF52DE',
+                        'apple-green': '#34C759',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Find Ghost",
+        "description": "An exciting online mystery game where players hunt for hidden spirits and challenge their observation skills.",
+        "url": "https://findghost.online/",
+        "genre": ["Mystery", "Puzzle", "Adventure"],
+        "playMode": "SinglePlayer",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "HTML5 Canvas Support"
+    }
+    </script>
+</head>
+<body class="bg-apple-light-gray min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-apple-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">👻</span>
+                    </div>
+                    <span class="text-xl font-semibold text-apple-dark">Find Ghost</span>
+                </div>
+                <button class="bg-apple-blue text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-200">
+                    Play Now
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-bold text-apple-dark mb-6">
+                Find Ghost
+            </h1>
+            <p class="text-xl md:text-2xl text-apple-gray mb-8 max-w-3xl mx-auto leading-relaxed">
+                Embark on a spine-tingling adventure to discover hidden spirits in this captivating mystery game.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="scrollToGame()" class="bg-apple-blue text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-blue-600 transition duration-200 shadow-lg">
+                    Start Playing
+                </button>
+                <button onclick="scrollToAbout()" class="bg-white text-apple-blue border-2 border-apple-blue px-8 py-3 rounded-full text-lg font-medium hover:bg-apple-blue hover:text-white transition duration-200">
+                    Learn More
+                </button>
+            </div>
+        </section>
+
+        <!-- Game Section -->
+        <section id="game-section" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                <div class="p-6 border-b border-gray-100">
+                    <h2 class="text-2xl font-bold text-apple-dark mb-2">Play Find Ghost Online</h2>
+                    <p class="text-apple-gray">Experience the thrill of ghost hunting directly in your browser</p>
+                </div>
+                <div class="p-6">
+                    <div class="relative w-full" style="padding-bottom: 75%; height: 0;">
+                        <iframe 
+                            src="https://html-classic.itch.zone/html/13888395/ghost_itchio001/index.html"
+                            class="absolute top-0 left-0 w-full h-full border-0 rounded-lg"
+                            allowfullscreen
+                            title="Find Ghost Game">
+                        </iframe>
+                    </div>
+                    <div class="mt-4 p-4 bg-apple-light-gray rounded-lg">
+                        <p class="text-sm text-apple-gray text-center">
+                            <strong>Controls:</strong> Use your mouse or touch to interact with the game. Look carefully for hidden ghosts!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about-section" class="mb-16">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-apple-dark mb-6">About Find Ghost</h2>
+                    <p class="text-apple-gray text-lg leading-relaxed mb-6">
+                        Find Ghost is an immersive online mystery game that challenges your observation skills and tests your courage. Navigate through mysterious environments as you search for elusive spirits hiding in plain sight.
+                    </p>
+                    <p class="text-apple-gray text-lg leading-relaxed mb-6">
+                        This browser-based adventure combines elements of puzzle-solving, mystery, and supernatural thrills to create an unforgettable gaming experience. Perfect for players who enjoy testing their detective skills.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-apple-purple to-apple-blue rounded-2xl p-8 text-white">
+                    <h3 class="text-2xl font-bold mb-4">Why Play Find Ghost?</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+                            Free to play online
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+                            No downloads required
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+                            Challenging gameplay
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+                            Suitable for all ages
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Features -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-apple-dark text-center mb-12">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition duration-200">
+                    <div class="w-16 h-16 bg-apple-green rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🔍</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-apple-dark mb-3">Mystery Solving</h3>
+                    <p class="text-apple-gray">Use your detective skills to uncover hidden clues and find elusive spirits.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition duration-200">
+                    <div class="w-16 h-16 bg-apple-purple rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">👻</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-apple-dark mb-3">Ghost Hunting</h3>
+                    <p class="text-apple-gray">Track down supernatural entities in atmospheric and spooky environments.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition duration-200">
+                    <div class="w-16 h-16 bg-apple-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🧩</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-apple-dark mb-3">Puzzle Elements</h3>
+                    <p class="text-apple-gray">Solve challenging puzzles and overcome obstacles in your ghostly quest.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Play -->
+        <section class="mb-16">
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-apple-dark text-center mb-8">How to Play Find Ghost</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-4">Getting Started</h3>
+                        <ol class="space-y-3 text-apple-gray">
+                            <li class="flex items-start">
+                                <span class="bg-apple-blue text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
+                                Click the "Start Playing" button to launch the game
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-apple-blue text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
+                                Wait for the game to load completely in your browser
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-apple-blue text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
+                                Use your mouse or touch screen to interact with objects
+                            </li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-apple-dark mb-4">Game Tips</h3>
+                        <ul class="space-y-3 text-apple-gray">
+                            <li class="flex items-start">
+                                <span class="text-apple-green mr-3 mt-1">•</span>
+                                Look carefully at every corner and shadow
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-apple-green mr-3 mt-1">•</span>
+                                Pay attention to subtle movements and changes
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-apple-green mr-3 mt-1">•</span>
+                                Take your time to explore each area thoroughly
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-apple-green mr-3 mt-1">•</span>
+                                Don't give up if you can't find a ghost immediately
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <div class="w-8 h-8 bg-apple-purple rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">👻</span>
+                    </div>
+                    <span class="text-xl font-semibold">Find Ghost Online</span>
+                </div>
+                <p class="text-apple-gray mb-6">
+                    Experience the ultimate ghost hunting adventure. Play free online now!
+                </p>
+                <div class="border-t border-gray-700 pt-6">
+                    <p class="text-apple-gray text-sm">
+                        © 2024 Find Ghost Online. All rights reserved. | 
+                        <a href="https://findghost.online/" class="text-apple-blue hover:text-blue-400">findghost.online</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function scrollToGame() {
+            document.getElementById('game-section').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        function scrollToAbout() {
+            document.getElementById('about-section').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Add smooth scrolling for better UX
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading animation for iframe
+            const iframe = document.querySelector('iframe');
+            const loadingDiv = document.createElement('div');
+            loadingDiv.className = 'absolute inset-0 flex items-center justify-center bg-apple-light-gray rounded-lg';
+            loadingDiv.innerHTML = '<div class="text-apple-gray">Loading game...</div>';
+            
+            iframe.parentNode.appendChild(loadingDiv);
+            
+            iframe.onload = function() {
+                loadingDiv.remove();
+            };
+        });
+    </script>
+</body>
+</html>
