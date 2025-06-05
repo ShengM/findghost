@@ -249,7 +249,7 @@
                 </p>
                 <div class="border-t border-gray-700 pt-6">
                     <p class="text-apple-gray text-sm">
-                        © 2024 Find Ghost Online. All rights reserved. | 
+                        © <span id="current-year">2025</span> Find Ghost Online. All rights reserved. | 
                         <a href="https://findghost.online/" class="text-apple-blue hover:text-blue-400">findghost.online</a>
                     </p>
                 </div>
@@ -275,6 +275,9 @@
 
         // Add smooth scrolling for better UX
         document.addEventListener('DOMContentLoaded', function() {
+            // Set current year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
             // Add loading animation for iframe
             const iframe = document.querySelector('iframe');
             const loadingDiv = document.createElement('div');
