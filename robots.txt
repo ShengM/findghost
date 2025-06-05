@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://findghost.online/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Allow indexing of main content
+Allow: /index.html
+Allow: /*.css
+Allow: /*.js
+
+# Block any unnecessary paths (if any exist in future)
+# Disallow: /admin/
+# Disallow: /private/ 
